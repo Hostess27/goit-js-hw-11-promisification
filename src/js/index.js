@@ -30,8 +30,8 @@ const toggleUserState = (allUsers, userName) => {
 
 const newlogger = (updatedUsers) => console.table(updatedUsers);
 
-toggleUserState(users, "Mango").then(logger);
-toggleUserState(users, "Lux").then(logger);
+toggleUserState(users, "Mango").then(newlogger);
+toggleUserState(users, "Lux").then(newlogger);
 
 //Задание 3-----------------------------------------------------------------------------------------------------------------------
 
